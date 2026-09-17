@@ -1,0 +1,2 @@
+import type { MetadataRoute } from "next";
+export default function manifest():MetadataRoute.Manifest{return{name:"LOKA — Living Social Space",short_name:"LOKA",description:"Ruang sosial yang hidup, tanpa riuh.",start_url:"/feed",display:"standalone",background_color:"#f5f4ef",theme_color:"#1c49ff",lang:"id",orientation:"portrait-primary",icons:[{src:"/favicon.svg",sizes:"any",type:"image/svg+xml",purpose:"any"}]}}

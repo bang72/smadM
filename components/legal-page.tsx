@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function LegalPage({title,updated,children}:{title:string;updated:string;children:React.ReactNode}){return <main className="legal-page"><header><Link href="/" className="wordmark"><span>L</span><b>LOKA</b></Link><Link href="/">Kembali</Link></header><article><p className="eyebrow">KEPERCAYAAN LOKA</p><h1>{title}</h1><p className="legal-updated">Diperbarui {updated}</p>{children}</article></main>}
