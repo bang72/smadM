@@ -80,8 +80,8 @@ export default function AuthScreen() {
           <form onSubmit={submit} className="auth-form">
             {mode === "signup" && (
               <div className="field-row">
-                <label>Nama tampilan<input name="displayName" required maxLength={40} placeholder="Surya Jaya" /></label>
-                <label>Username<input name="username" required minLength={3} maxLength={20} pattern="[a-zA-Z0-9_]+" placeholder="suryajaya" /></label>
+                <label>Nama tampilan<input name="displayName" required maxLength={40} placeholder="Cania" /></label>
+                <label>Username<input name="username" required minLength={3} maxLength={20} pattern="[a-zA-Z0-9_]+" placeholder="caniaxthink" /></label>
               </div>
             )}
             <label>Email<input name="email" type="email" autoComplete="email" required placeholder="kamu@email.com" /></label>
