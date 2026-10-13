@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 
   verification: {
     other: {
-      "msvalidate.01": "<meta name="msvalidate.01" content="A95A52D0BF6EF0CA1A5657DB85A96415" />",
+      "msvalidate.01": "A95A52D0BF6EF0CA1A5657DB85A96415",
     },
   },
 };
