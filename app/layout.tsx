@@ -1,4 +1,3 @@
-```tsx
 import type { Metadata } from "next";
 import { Toaster } from "sonner";
 import "./globals.css";
@@ -12,12 +11,6 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image", title: "LOKA — Living Social Space", description: "Sosial tanpa riuh. Manusia sebelum metrik." },
   icons: { icon: "/favicon.svg" },
   manifest: "/manifest.webmanifest",
-
-  verification: {
-    other: {
-      "msvalidate.01": "A95A52D0BF6EF0CA1A5657DB85A96415",
-    },
-  },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
@@ -32,4 +25,3 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     </html>
   );
 }
-```
